@@ -1,0 +1,18 @@
+{
+  "name": "passgen",
+  "version": "1.0.0",
+  "description": "A coomand line tool using node.js to generate passowrd",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin" : "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vinayak Shetty",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "clipboardy": "^2.3.0",
+    "commander": "^10.0.0"
+  }
+}
