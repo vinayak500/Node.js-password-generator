@@ -4,7 +4,9 @@
   "description": "A coomand line tool using node.js to generate passowrd",
   "main": "index.js",
   "preferGlobal": true,
-  "bin" : "./index.js",
+  "bin": {
+    "passgen": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,5 +16,14 @@
     "chalk": "^4.1.2",
     "clipboardy": "^2.3.0",
     "commander": "^10.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vinayak500/Node.js-password-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vinayak500/Node.js-password-generator/issues"
+  },
+  "homepage": "https://github.com/vinayak500/Node.js-password-generator#readme"
 }
